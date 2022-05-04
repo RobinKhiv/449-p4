@@ -4,8 +4,8 @@ Open Terminal in linux
 write "crontab -e"
 go to the end of file
 if python file is in root file
-paste -> "*/10 * * * * /usr/bin/flock -n my-py.lock /usr/bin/python3.8 winlossstats.py
+paste -> ''' */10 * * * * /usr/bin/flock -n my-py.lock /usr/bin/python3.8 winlossstats.py '''
 if python file is in different folder
-paste -> "*/10 * * * * cd <path to your python file> && /usr/bin/flock -n my-py.lock /usr/bin/python3.8 winloassstats.py
+paste -> ''' */10 * * * * cd <path to your python file> && /usr/bin/flock -n my-py.lock /usr/bin/python3.8 winloassstats.py '''
 save the cron file
 done. :)
