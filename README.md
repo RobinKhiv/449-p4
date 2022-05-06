@@ -31,6 +31,8 @@ python winlossstats.py
 
 ## Pulling Leaderboards from Redis
  1.Go inside 449-p4-main project directory run the command
+ 
   foreman start
+  
  2. The modified service from project 3 can be accessed at http://localhost:5002/docs
   
