@@ -7,6 +7,10 @@ use the command:
 
 ## Materializing Data from Views
 
+  Run the sql dump files to create the databases </br>
+  
+  ```./bin/init.sh```</br>
+
 ## Scheduling updates with cron
 
 ## Pulling Leaderboards from Redis
