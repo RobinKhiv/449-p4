@@ -1,4 +1,9 @@
 # 449-p4
+## SETUP
+initialize the databases for "Materializing data from views"</br>
+
+with:
+```./bin/init.sh```
 
 ## Service to Track State
 To run the Fastapi service
