@@ -14,9 +14,9 @@ r = redis.StrictRedis(host='localhost',
                                 port=6379,
                                 db=0)
 
-GAMEDB1 = "/home/student/449p3/var/game1.db"
-GAMEDB2 = "/home/student/449p3/var/game2.db"
-GAMEDB3 = "/home/student/449p3/var/game3.db"
+GAMEDB1 = "./var/game1.db"
+GAMEDB2 = "./var/game2.db"
+GAMEDB3 = "./var/game3.db"
 
 def get_top10WinRecordsFromShard1(
 ):
