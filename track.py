@@ -10,9 +10,10 @@ r = redis.StrictRedis('localhost', 6379, charset="utf-8", decode_responses=True)
 
 
 #flush redis cache before we start
-@app.on_event("startup")
-async def startup_event():
-    r.flushdb()
+#uncomment below if you need to clear your redis memory cache
+#@app.on_event("startup")
+#async def startup_event():
+#    r.flushdb()
 
 
 #Starting a new game. The client should supply a user ID and
